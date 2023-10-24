@@ -60,13 +60,17 @@
 
         <TextView
             android:id="@+id/txdowndog"
-            android:layout_width="143dp"
-            android:layout_height="31dp"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
             android:layout_marginStart="5dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:text="TextView"
+            android:textSize="14sp"
+            app:autoSizeMinTextSize="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img_dog" />
+            app:layout_constraintStart_toEndOf="@+id/img_dog"
+            app:layout_constraintTop_toBottomOf="@+id/txtopdog" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -107,13 +111,15 @@
 
         <TextView
             android:id="@+id/txdowncat"
-            android:layout_width="140dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/r150dp"
+            android:layout_height="@dimen/r50dp"
             android:layout_marginStart="5dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img_cat" />
+            app:layout_constraintStart_toEndOf="@+id/img_cat"
+            app:layout_constraintTop_toBottomOf="@+id/txtopcat" />
 
         <Button
             android:id="@+id/btn_cat"
@@ -165,13 +171,15 @@
 
         <TextView
             android:id="@+id/txdownlion"
-            android:layout_width="140dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/r150dp"
+            android:layout_height="@dimen/r50dp"
             android:layout_marginStart="5dp"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img_lion" />
+            app:layout_constraintStart_toEndOf="@+id/img_lion"
+            app:layout_constraintTop_toBottomOf="@+id/txtoplion" />
 
         <Button
             android:id="@+id/btn_lion"
