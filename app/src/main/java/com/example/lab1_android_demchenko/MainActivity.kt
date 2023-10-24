@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
-
+    val dog1 = dog()
+        // txtopog.text
 fun goAn1(v: View)
 {
     startActivity(Intent(this, Animal_1::class.java))
