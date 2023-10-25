@@ -3,4 +3,8 @@
     <dimen name="wt">160dp</dimen>
     <dimen name="r50dp">50dp</dimen>
     <dimen name="r150dp">150dp</dimen>
+    <dimen name="w100dp">100dp</dimen>
+    <dimen name="h100dp">100dp</dimen>
+    <dimen name="w360dp_ex_txt">360dp</dimen>
+    <dimen name="h480dp_ex_txt">480dp</dimen>
 </resources>

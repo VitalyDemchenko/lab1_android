@@ -4,41 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Animal_2">
+    tools:context=".Animal_3">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="@dimen/w100dp"
+        android:id="@+id/img_lion2"
+        android:layout_width="@dimen/h100dp"
         android:layout_height="@dimen/h100dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cat" />
+        app:srcCompat="@drawable/lion" />
 
     <TextView
-        android:id="@+id/txupcat2"
+        android:id="@+id/toptext_lion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/img_lion2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txdowncat2"
+        android:id="@+id/downtext_lion"
         android:layout_width="@dimen/r150dp"
         android:layout_height="@dimen/r50dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/txupcat2" />
+        app:layout_constraintStart_toEndOf="@+id/img_lion2"
+        app:layout_constraintTop_toBottomOf="@+id/toptext_lion" />
 
     <TextView
-        android:id="@+id/txextcat2"
+        android:id="@+id/exttext_lion"
         android:layout_width="@dimen/w360dp_ex_txt"
         android:layout_height="@dimen/h480dp_ex_txt"
         android:layout_marginStart="20dp"
@@ -47,11 +47,11 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/img_lion2" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="380dp"
+        android:id="@+id/button2"
+        android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"

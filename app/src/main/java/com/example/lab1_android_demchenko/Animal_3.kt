@@ -6,22 +6,25 @@ import android.view.View
 import android.content.Intent
 import androidx.activity.OnBackPressedCallback
 import androidx.databinding.DataBindingUtil
-import com.example.lab1_android_demchenko.databinding.ActivityAnimal1Binding
+//import com.example.lab1_android_demchenko.databinding.ActivityAnimal1Binding
+import com.example.lab1_android_demchenko.databinding.ActivityAnimal3Binding
 
-class Animal_1 : AppCompatActivity() {
-    private lateinit var binding : ActivityAnimal1Binding
+class Animal_3 : AppCompatActivity() {
+    private lateinit var binding : ActivityAnimal3Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //setContentView(R.layout.activity_animal3)
 
-        binding = ActivityAnimal1Binding.inflate(layoutInflater)
+
+        binding = ActivityAnimal3Binding.inflate(layoutInflater)
         val contentView = binding.root
         setContentView(contentView)
 
 
-        binding.txupdog2.text = dog2.txtopdog2
-        binding.txdowndog2.text = dog2.txdowndog2
-        binding.txbigdog2.text = dog2.extended_text_dog2
+        binding.toptextLion.text = lion1.txtoplion2
+        binding.downtextLion.text = lion1.txdownlion2
+        binding.exttextLion.text = lion1.extended_text_lion2
 
 
 
@@ -30,18 +33,15 @@ class Animal_1 : AppCompatActivity() {
                 // Ваш код для обробки натискання клавіші "Назад" тут
 
                 // Якщо ви хочете закрити активність, викликайте finish()
-                startActivity(Intent(this@Animal_1, MainActivity::class.java))
+                startActivity(Intent(this@Animal_3, MainActivity::class.java))
                 // Закрити поточну активність
                 finish()
             }
 
         }
-       // setContentView(R.layout.activity_animal1)
+        // setContentView(R.layout.activity_animal1)
         onBackPressedDispatcher.addCallback(this, callback)
-
-
     }
-
     fun goMain1(v: View)
     {
 
@@ -52,7 +52,5 @@ class Animal_1 : AppCompatActivity() {
 
 
 
-   var dog2 = dog()
-
-
+    var lion1 = Lion()
 }

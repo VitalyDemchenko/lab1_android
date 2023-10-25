@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/img_dog2"
-        android:layout_width="100dp"
+        android:layout_width="@dimen/w100dp"
         android:layout_height="100dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -49,13 +49,14 @@
         app:layout_constraintTop_toBottomOf="@+id/img_dog2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnMain1"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="10dp"
         android:text="НАЗАД"
+        android:onClick="goMain1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
